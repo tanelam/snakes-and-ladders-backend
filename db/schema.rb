@@ -18,6 +18,8 @@ ActiveRecord::Schema.define(version: 20180323184930) do
     t.integer "winner"
     t.integer "looser"
     t.string "board_type"
+    t.integer "gamers_position"
+    t.integer "opponents_position"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

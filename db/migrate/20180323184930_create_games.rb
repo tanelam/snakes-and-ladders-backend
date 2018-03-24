@@ -6,6 +6,8 @@ class CreateGames < ActiveRecord::Migration[5.1]
       t.integer "winner"
       t.integer "looser"
       t.string "board_type"
+      t.integer "gamers_position"
+      t.integer "opponents_position"
       t.timestamps
     end
   end
